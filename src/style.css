@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  background-color: #c1292e;
+}
+section {
+  height: 96.9vh;
+  background-color: #2a2d34;
+  color: whitesmoke;
+  border-bottom: solid #d8cfaf 3vh;
+  border-bottom-right-radius: 100vh;
+}
+h1 {
+  font-size: 7vw;
+  margin: 0px;
+  font-weight: 400;
+  border-left: solid #f5deb3 0.5vh;
+  padding-left: 1vw;
+}
+
+p {
+  font-size: 2.3vw;
+  font-weight: 200;
+}
+.aboutMe {
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+.aboutMeText {
+  margin-left: 3vw;
+  margin-right: 5vw;
+  padding-right: 5vw;
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  margin-top: 7vh;
+}
+svg:hover {
+  fill: #c1292e;
+}
